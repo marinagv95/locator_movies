@@ -11,7 +11,7 @@ Abaixo estão todas as regras de negócio definidas pelo cliente, tanto para a e
 Vamos lá?!
 
 #
-    O repositório da entrega conta com um arquivo chamado *market_workspace*. Esse arquivo é um documento de design utilizado no *insomnia*.
+    O repositório da entrega conta com um arquivo chamado *movies_workspace*. Esse arquivo é um documento de design utilizado no *insomnia*.
     Ele contém todas as rotas necessárias para que a aplicação esteja de acordo com as regras impostas.
     Esse arquivo também será utilizado por instrutores e monitores na correção das entregas.
 

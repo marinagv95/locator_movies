@@ -140,18 +140,18 @@ Rota de listagem de filmes. Deve ser possível retornar todos os filmes do cinem
 [
   {
     "id": 1,
- 		"name": "Divertidamente",
-		"category": "Animação",
-		"duration": 120,
-		"price": 35
+    "name": "Divertidamente",
+    "category": "Animação",
+    "duration": 120,
+    "price": 35
   },
   {
-		"id": 2,
-		"name": "Matrix",
-		"category": "Ficção",
-		"duration": 120,
-		"price": 35,
-	}
+    "id": 2,
+    "name": "Matrix",
+    "category": "Ficção",
+    "duration": 120,
+    "price": 35,
+  }
 ]
 ```
 
@@ -166,10 +166,10 @@ O exemplo abaixo foi realizado na seguinte rota: **/movies?category=Animação**
 [
   {
     "id": 1,
- 		"name": "Divertidamente",
-		"category": "Animação",
-		"duration": 120,
-		"price": 35
+    "name": "Divertidamente",
+    "category": "Animação",
+    "duration": 120,
+    "price": 35
   }
 ]
 ```
@@ -184,18 +184,18 @@ O exemplo abaixo foi realizado na seguinte rota: **/movies?category=outra catego
 [
   {
     "id": 1,
- 		"name": "Divertidamente",
-		"category": "Animação",
-		"duration": 120,
-		"price": 35
+    "name": "Divertidamente",
+    "category": "Animação",
+    "duration": 120,
+    "price": 35
   },
   {
     "id": 2,
-		"name": "Matrix",
-		"category": "Ficção",
-		"duration": 120,
-		"price": 35,
-	}
+    "name": "Matrix",
+    "category": "Ficção",
+    "duration": 120,
+    "price": 35,
+  }
 ]
 ```
 
@@ -209,11 +209,11 @@ O exemplo abaixo foi realizado na seguinte rota: **/movies/1**.
 
 ```json
 {
-	"id": 1,
- 	"name": "Divertidamente",
-	"category": "Animação",
-	"duration": 120,
-	"price": 35
+  "id": 1,
+  "name": "Divertidamente",
+  "category": "Animação",
+  "duration": 120,
+  "price": 35
 }
 ```
 

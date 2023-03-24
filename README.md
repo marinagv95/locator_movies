@@ -78,7 +78,7 @@ O nome da tabela **deve** ser **movies**.
 
 ## Casos de erro
 
-* Na rotas **GET, PATCH e DELETE /movies/:id**, caso **id** não exista, deve-se retornar a mensagem de erro e status code mencionados abaixo:
+* Nas rotas **GET, PATCH e DELETE /movies/:id**, caso **id** não exista, deve-se retornar a mensagem de erro e status code mencionados abaixo:
   * Status code: ***404 NOT FOUND.***
   * Mensagem de retorno:
 
@@ -88,7 +88,7 @@ O nome da tabela **deve** ser **movies**.
     }
     ```
 
-* Na rotas **POST e PATCH**, caso **name** já exista, deve retornar a mensagem de erro abaixo. O status code deve ser o mencionado abaixo:
+* Nas rotas **POST e PATCH**, caso **name** já exista, deve retornar a mensagem de erro abaixo. O status code deve ser o mencionado abaixo:
   * Status code: ***409 CONFLICT.***
   * Mensagem de retorno:
   
@@ -208,15 +208,13 @@ O exemplo abaixo foi realizado na seguinte rota: **/movies/1**.
 | **Status code:** ***200 OK.*** |
 
 ```json
-[
-  {
-    "id": 1,
- 		"name": "Divertidamente",
-		"category": "Animação",
-		"duration": 120,
-		"price": 35
-  }
-]
+{
+	"id": 1,
+ 	"name": "Divertidamente",
+	"category": "Animação",
+	"duration": 120,
+	"price": 35
+}
 ```
 
 ### PATCH /movies/:id

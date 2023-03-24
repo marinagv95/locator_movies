@@ -227,8 +227,7 @@ O exemplo abaixo foi realizado na seguinte rota: **/movies/2**.
 
 ```json
 {
-  "name": "Matrix 2",
-  "chaveExtra": "valor extra"
+  "name": "Matrix 2"
 }
 ```
 

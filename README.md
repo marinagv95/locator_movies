@@ -33,7 +33,7 @@ A entrega deve seguir as seguintes regras:
 * O código deve estar em TypeScript, caso não esteja a **entrega será zerada**;
 * Deverá ser utilizado um banco de dados ***postgres*** para a elaboração da API;
 * O nome da tabela, das colunas e demais especificações, devem ser seguidas a risca. Caso tenha divergência, **será descontado nota**;
-* Deve conter uma pasta **sql** com dois arquivos:
+* Deve conter uma pasta **sql** na **raiz do projeto** com dois arquivos:
   * **create_table.sql**: contendo a criação da tabela **movie**;
     * deve conter **APENAS** a criação da **TABELA**.
   * **diagram.png/jgp**: um arquivo ***.png*** ou ***.jpg*** contendo o diagrama da tabela;

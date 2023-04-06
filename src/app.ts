@@ -19,5 +19,7 @@ app.patch("/movies/:id", ensureMovieExistis, existMovieName, updateMovie);
 app.delete("/movies/:id", ensureMovieExistis, deleteMovie);
 app.listen(3000, async () => {
   await startDatabase();
-  console.log("Server started on port 3000");
+  const host = "localhost";
+  const port = 3000;
+  console.log(`Server running at http://${host}:${port}/`);
 });
